@@ -1,34 +1,37 @@
-# 🧱 Data Warehouse Setup Script
+# 🧱 Data Warehouse Setup
 
 This script creates a new database named **`DataWarehouse`**.  
 If it already exists, it will be **dropped and recreated**.  
 
 It also sets up three schemas:
-- `bronze` 🥉  
-- `silver` 🥈  
-- `gold` 🥇  
+- 🥉 **bronze** – raw data  
+- 🥈 **silver** – cleaned and transformed data  
+- 🥇 **gold** – curated, analytics-ready data  
 
 > ⚠️ **Warning:** Running this script will permanently delete the `DataWarehouse` database if it exists.  
-> Ensure you have a proper backup before running.
+> Ensure you have a proper backup before running it.
 
 ---
 
-### 📜 SQL Script
+## 🚀 How to Run
+
+1. Open **SQL Server Management Studio (SSMS)** or **Azure Data Studio**.  
+2. Connect to your SQL Server instance.  
+3. Copy and paste the script below.  
+4. Press **F5** (or click **Run**) to execute it.  
+
+---
+
+## 📜 SQL Script
 
 ```sql
 /*
 *******************************************************
-Create Database and Schema
+Create Database and Schemas
 *******************************************************
-
-Script Purpose:
 This script creates a new database named 'DataWarehouse'. 
 If it already exists, it is dropped and recreated. 
-Additionally, the script sets up three schemas within the database: 'bronze', 'silver', and 'gold'.
-
-WARNING:
-Running this script will drop the entire 'DataWarehouse' database permanently if it exists.
-Proceed with caution and ensure you have a proper backup before running this script.
+It also sets up three schemas: bronze, silver, and gold.
 */
 
 -- Drop and recreate the 'DataWarehouse' database
