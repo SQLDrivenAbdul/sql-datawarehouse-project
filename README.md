@@ -8,7 +8,7 @@ It is designed as a portfolio project that highlights industry best practices in
 
 ## Project Requirements
 
-### 1. Building a Data Warehouse (Data Engineering)
+###  Building a Data Warehouse (Data Engineering)
 
 #### Objective
 Develop a modern data warehouse using **SQL Server** to consolidate sales data, enabling analytical reporting and informed decision-making.
@@ -23,13 +23,5 @@ Develop a modern data warehouse using **SQL Server** to consolidate sales data, 
 
 ---
 
-### 2. BI: Analytics & Reporting (Data Analysis)
-
-#### Objectives
-Develop **SQL-based analytics** to deliver detailed insights into:
-
-- **Customer Behaviour**  
-- **Product Performance**  
-- **Sales Trends**
 
 
