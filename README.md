@@ -1,27 +1,30 @@
-# Data Warehouse and Analytics Project
+# 🏗️ Data Warehouse  Project
 
-Welcome to the **Data Warehouse and Analytics Project** repository!  
-This project demonstrates a comprehensive data warehousing and analytics solution — from building a data warehouse to generating actionable insights.  
-It is designed as a portfolio project that highlights industry best practices in data engineering and analytics.
+Welcome to the **Data Warehouse Project** repository! 
 
----
-
-## Project Requirements
-
-###  Building a Data Warehouse (Data Engineering)
-
-#### Objective
-Develop a modern data warehouse using **SQL Server** to consolidate sales data, enabling analytical reporting and informed decision-making.
-
-#### Specifications
-
-- **Data Sources**: Import data from two source systems (ERP and CRM) provided as CSV files.  
-- **Data Quality**: Cleanse and resolve data quality issues prior to analytics.  
-- **Integration**: Combine both sources into a single, user-friendly data model designed for analytical queries.  
-- **Scope**: Focus on the latest dataset only; historization is not required.  
-- **Documentation**: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
+This project showcases an **end-to-end data engineering solution** by building a modern data warehouse.  
+It is designed as a **portfolio project** that demonstrates **industry-standard best practices** in **data engineering and modeling for analytics**.
 
 ---
 
+## 🎯 Project Requirements
 
+###  🧱 Build a Modern Data Warehouse (Data Engineering)
+
+#### **Objective**
+Design and implement a **SQL Server–based data warehouse** that consolidates sales data from multiple systems, enabling robust analytical reporting and data-driven decision-making.
+
+---
+
+### **Specifications**
+
+| Category | Description |
+|-----------|--------------|
+| **Data Sources** | Two source systems — **ERP** and **CRM**, each provided as CSV files. |
+| **Data Quality** | Cleanse, standardize, and resolve data quality issues prior to analytics. |
+| **Integration** | Merge both systems into a **single, analytical data model** optimized for reporting and insights. |
+| **Scope** | Focus on the **latest available dataset** (historization not required). |
+| **Documentation** | Provide **comprehensive data model documentation** for both business and analytics stakeholders. |
+
+---
 
